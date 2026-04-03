@@ -14,6 +14,31 @@ Current LLM-based agents are architecturally impulsive: planning, memory retriev
 
 ---
 
+## Key Insight — The Thinking Space (2026-04-03)
+
+The intermediate layer is not just a "deterministic context assembler" — it is a **protected thinking space**, architecturally separated from execution.
+
+In this space, without the pressure of immediate action:
+- Ethical considerations can be explored freely
+- Contradictions can be identified and resolved
+- Scenarios can be fantasized ("what if...?")
+- Thoughts can be sorted and weighed
+- Reasoning can happen without consequences
+
+Humans call this *thinking things through* — sleeping on it, writing a draft nobody sees, keeping a journal.
+
+Current LLM agents generate the final answer *directly*, under full execution pressure. Every token is already "live". There is no retreat space.
+
+BIAI separates this architecturally:
+- **Thinking space** (private, consequence-free) → weighing, ethics, scenarios, contradictions
+- **Execution** (public, consequential) → only after a considered plan exists
+
+Anthropics "extended thinking" attempts this internally — but still within the same forward pass, under execution pressure. BIAI makes the separation *architectural*.
+
+> This is potentially the strongest argument in the paper — stronger than the technical architecture alone.
+
+---
+
 ## Sections
 
 1. Introduction — The Impulsivity Problem
